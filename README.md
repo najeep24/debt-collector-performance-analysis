@@ -87,11 +87,11 @@ Navigate through comprehensive documentation covering every aspect of the projec
 
 |Document|Description|Key Insights|
 |---|---|---|
-|**[Project Overview](https://claude.ai/chat/docs/00-project-overview-report.md)**|Problem statement, solution approach, success metrics|Manual → Automated evaluation transformation|
-|**[Data Overview](https://claude.ai/chat/docs/01-data-overview-report.md)**|Dataset characteristics, feature descriptions, data quality|12,000 records, 17 features, 1-year timespan|
-|**[Data Cleaning](https://claude.ai/chat/docs/02-data-cleaning-report.md)**|Preprocessing steps, outlier treatment, quality assurance|92.7% data retention after quality improvements|
-|**[Exploratory Analysis](https://claude.ai/chat/docs/03-exploratory-analysis-report.md)**|Pattern discovery, correlation analysis, feature engineering|Key performance drivers identification|
-|**[Model Development](https://claude.ai/chat/docs/04-modelling-evaluation-report.md)**|Algorithm comparison, hyperparameter tuning, evaluation|95.34% accuracy with LightGBM|
+|**[Project Overview](https://github.com/najeep24/debt-collector-performance-analysis/blob/f33ebfdab08f035a4caa5ec6320fe3a7e9e595c5/docs/00-project-overview-report.md)**|Problem statement, solution approach, success metrics|Manual → Automated evaluation transformation|
+|**[Data Overview](https://github.com/najeep24/debt-collector-performance-analysis/blob/f33ebfdab08f035a4caa5ec6320fe3a7e9e595c5/docs/01-data-overview-report.md)**|Dataset characteristics, feature descriptions, data quality|12,000 records, 17 features, 1-year timespan|
+|**[Data Cleaning](https://github.com/najeep24/debt-collector-performance-analysis/blob/f33ebfdab08f035a4caa5ec6320fe3a7e9e595c5/docs/02-data-cleaning-report.md)**|Preprocessing steps, outlier treatment, quality assurance|92.7% data retention after quality improvements|
+|**[Exploratory Analysis](https://github.com/najeep24/debt-collector-performance-analysis/blob/f33ebfdab08f035a4caa5ec6320fe3a7e9e595c5/docs/03-exploratory-analysis-report.md)**|Pattern discovery, correlation analysis, feature engineering|Key performance drivers identification|
+|**[Model Development](https://github.com/najeep24/debt-collector-performance-analysis/blob/f33ebfdab08f035a4caa5ec6320fe3a7e9e595c5/docs/04-modelling-evaluation-report.md)**|Algorithm comparison, hyperparameter tuning, evaluation|95.34% accuracy with LightGBM|
 
 ### 🚀 **Implementation Reports**
 
@@ -99,32 +99,9 @@ Detailed technical implementation and deployment documentation:
 
 |Document|Focus Area|Technical Details|
 |---|---|---|
-|**[Deployment Report](https://claude.ai/chat/docs/deployment-report.md)**|Model serialization, pipeline deployment, production setup|Pickle serialization, Flask integration|
-|**[Website Development](https://claude.ai/chat/docs/website-development-report.md)**|Web application architecture, features, future roadmap|Full-stack development, interactive features|
-|**[Tableau Dashboard](https://claude.ai/chat/docs/tableau-dashboard-report.md)**|Business intelligence dashboard, KPI visualization|Executive analytics, performance monitoring|
-
----
-
-## 🎯 **Tableau Dashboard Analytics**
-
-### 📊 **Executive Performance Dashboard**
-
-Our Tableau dashboard provides comprehensive debt collector performance analytics with the following key sections:
-
-- **📈 Performance Metrics Overview** - Success ratios, contact rates, recovery statistics
-- **👥 Collector Segmentation** - High/Medium/Low performance distribution
-- **📞 Communication Analytics** - Contact quality, connection rates, feedback analysis
-- **💰 Financial Recovery Tracking** - Debt collection amounts, payment received trends
-- **📅 Temporal Analysis** - Monthly performance trends and seasonal patterns
-
-**🔗 Dashboard Features:**
-
-- Interactive filters by quarter and collector
-- Real-time performance indicators
-- Drill-down capabilities for detailed analysis
-- Trend visualization with forecasting
-
-_For detailed dashboard navigation and insights, see [Tableau Dashboard Report](https://claude.ai/chat/docs/tableau-dashboard-report.md)_
+|**[Deployment Report](https://github.com/najeep24/debt-collector-performance-analysis/blob/f33ebfdab08f035a4caa5ec6320fe3a7e9e595c5/docs/05-model-deployment-report.md)**|Model serialization, pipeline deployment, production setup|Pickle serialization, Flask integration|
+|**[Website Development](https://github.com/najeep24/debt-collector-performance-analysis/blob/f33ebfdab08f035a4caa5ec6320fe3a7e9e595c5/docs/06-web-development-report.md)**|Web application architecture, features, future roadmap|Full-stack development, interactive features|
+|**[Tableau Dashboard](https://github.com/najeep24/debt-collector-performance-analysis/blob/f33ebfdab08f035a4caa5ec6320fe3a7e9e595c5/docs/07-tableau-dashboard-report.md)**|Business intelligence dashboard, KPI visualization|Executive analytics, performance monitoring|
 
 ---
 
@@ -254,9 +231,9 @@ This end-to-end machine learning project showcases comprehensive data science ca
 
 **🔗 Connect with me:**
 
-- **LinkedIn:** [Your LinkedIn Profile]
-- **Email:** [your.email@domain.com]
-- **Portfolio:** [Your Portfolio Website]
+- **LinkedIn:** [My LinkedIn Profile](https://www.linkedin.com/in/nazhivali/)
+- **Email:** nazhiv.ash@gmail.com
+- **Portfolio:** [Portfolio link](https://www.notion.so/Portfolio-26eaa97018ea80d2b4a7c435b72f5950?source=copy_link)
 
 **💬 Let's discuss:** Machine Learning projects, Data Science collaboration, Business analytics solutions
 
