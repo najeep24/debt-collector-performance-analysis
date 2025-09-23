@@ -56,25 +56,26 @@ This comprehensive project demonstrates expertise across the entire data science
 
 _Clean, professional interface introducing the debt collector performance analysis system_
 
-![Homepage Hero](https://claude.ai/chat/static/images/hero-section.png)
+![Homepage Hero](https://github.com/najeep24/debt-collector-performance-analysis/blob/d9b02afd2efd9f7ee5e96e56f72e445c6ed08bab/data/hiro-web.png)
 
 ### 📝 **Prediction Input Form**
 
 _User-friendly form for entering collector performance data with intuitive field validation_
 
-![Prediction Form](https://claude.ai/chat/static/images/prediction-form.png)
+![Prediction Form](https://github.com/najeep24/debt-collector-performance-analysis/blob/d9b02afd2efd9f7ee5e96e56f72e445c6ed08bab/data/input-web.png)
 
 ### 📊 **Prediction Results & Analysis**
 
 _Comprehensive results page featuring performance classification, detailed metrics analysis, and visual explanations_
 
-![Prediction Results](https://claude.ai/chat/static/images/prediction-results.png)
+![Prediction Results](https://github.com/najeep24/debt-collector-performance-analysis/blob/d9b02afd2efd9f7ee5e96e56f72e445c6ed08bab/data/result-1.png)
+![Prediction Results-2](https://github.com/najeep24/debt-collector-performance-analysis/blob/d9b02afd2efd9f7ee5e96e56f72e445c6ed08bab/data/result-2.png)
 
 ### 📈 **Interactive Dashboard Analytics**
 
 _Advanced analytics dashboard with drill-down capabilities and performance trend analysis_
 
-![Dashboard Analytics](https://claude.ai/chat/static/images/dashboard-analytics.png)
+![Dashboard Analytics](https://github.com/najeep24/debt-collector-performance-analysis/blob/65576856513b20a11fc8f93d38c7429585456d48/data/Screenshot%202025-09-23%20082446.png)
 
 ---
 
