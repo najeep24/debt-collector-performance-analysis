@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction</title>
+
+    <link rel="stylesheet" type="text/css" href="static/css/prediction.css">
+
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="predict-bg">
+                <div class="prediction-bg">
+                    <nav>
+                        <div class="logo">Site Name</div>
+                        <ul>
+                            <li>
+                                <a href="#">Prediction</a>
+                            </li>
+                            <li>
+                                <a href="#">Analytics</a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn signup">Sign In</a>
+                            </li>
+                        </ul>
+                    </nav>
+    
+                    <!--end of navigation-->
+    
+                    <div class="predict-page-title">
+                        <div class="predict-text-atas">
+                            <img src="static/img/predict_dec.svg">
+                            <h1>Debt Collection</h1>
+                            <h3>Performance <span>Classification</span></h3>
+                        </div>
+                        <div class="predict-text-bawah">
+                            <p>the premier platform designed to <br>
+                                revolutionize the way you approach debt collection.</p>
+                        </div>
+                    </div>
+    
+                    <div class="predict-page-desc">
+                        <div class="box-form-and-desc">
+                                <form class="form" action="/predict" method="POST">
+                                    <div class="box-form">
+                                        <div class="box">
+                                            <h4>Debt Details</h4>
+                                            <label for="total-debt">Total Debt</label>
+                                            <input type="text" name="total_debt" id="total_debt" required>
+        
+                                            <label for="total-debt-payment">Total Debt Payment Received</label>
+                                            <input type="text" name="total_debt_payment_recieved" id="total_debt_payment_recieved" required>
+        
+                                            <label for="transfer-day-diff">Avg. Transfer Day diff</label>
+                                            <input type="text" name="transfer_day_diff" id="transfer_day_diff" required>
+                                        </div>
+                                        <div class="box">
+                                            <h4>Efforts</h4>
+                                            <label for="total-contact">Total Contact</label>
+                                            <input type="text" name="total_contact" id="total_contact" required>
+        
+                                            <label for="contact-connected">Contact Connected</label>
+                                            <input type="text" name="contact_connected" id="contact_connected" required>
+        
+                                            <label for="call-to-ptp">Call To PTP</label>
+                                            <input type="text" name="call_to_ptp" id="call_to_ptp" required>
+
+                                            <label for="total-case-closed">Total Case Closed</label>
+                                            <input type="text" name="total_case_closed" id="total_case_closed" required>
+                                        </div>
+                                        <div class="box">
+                                            <h4>Skills</h4>
+
+                                            <label for="problem_solving">Problem Solving</label>
+                                            <select id="problem_solving" name="problem_solving" class="dropdown-select">
+                                                <option value="" disabled selected>Select Category</option>
+                                                <option value="Sangat Baik">Sangat Baik</option>
+                                                <option value="Baik">Baik</option>
+                                                <option value="Cukup">Cukup</option>
+                                                <option value="Kurang Memuaskan">Kurang Memuaskan</option>
+                                                <option value="Buruk">Buruk</option>
+                                              </select>
+        
+                                              <label for="debtor_feedback">Debtor Feedback</label>
+                                              <select id="debtor_feedback" name="debtor_feedback" class="dropdown-select">
+                                                <option value="" disabled selected>Select Category</option>
+                                                <option value="Sangat Baik">Sangat Baik</option>
+                                                <option value="Baik">Baik</option>
+                                                <option value="Cukup">Cukup</option>
+                                                <option value="Kurang Memuaskan">Kurang Memuaskan</option>
+                                                <option value="Buruk">Buruk</option>
+                                              </select>
+                                        </div>
+                                        <div class="box-desc">
+                                            <div class="desc-text">
+                                                <h3>Description</h3>
+                                                <p>Predict the effectiveness of your <br>debt collectior with our advanced <br>machine learning model.</p>
+                                                
+                                                <button class = "btn dark" type = "submit">Predict</button>
+                                            </div>
+                                    </div>
+                                    </div>
+
+                                </form>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script>
+        var button = document.getElementById("button");
+        if (button) {
+            button.addEventListener("click", function (e) {
+                window.location.href = "./result.html";
+            });
+        }
+    </script>
+</body>

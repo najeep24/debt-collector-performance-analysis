@@ -1,0 +1,338 @@
+:root{
+    --btn-get-started: #002D1B;
+    --hijau-muda: #0C562A;
+    --hijau-tua:#002D1B;
+    --hitam-gelap: #2D2D2D;
+    --hijau-terang: #1ABC5C;
+    --kuning-sedang: #D6E062;
+    --kuning-terang: #FAFFBF;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.home-bg{
+    background-color: rgba(0, 45, 27, 0.71);
+}
+
+.wrapper{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+header{
+    background: url(bg-selain-home.png);
+    height: 100vh;
+    width: 100%;
+    z-index: 100;
+}
+
+/* Nav Button*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 240px;
+    align-items: center;
+    position: fixed;
+    width: 1920px;
+    top: 21px;
+    z-index: 102;
+}
+
+nav .logo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    line-height: 150%;
+    color: white;
+    font-weight: 700;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    list-style: none;
+}
+
+nav ul a{
+    color: white;
+    font-family: 'inter', sans-serif;
+    font-weight: 200;
+    line-height: 150%;
+    font-size: 20px;
+    font-weight: 400;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+    text-decoration: none;
+}
+
+/* Nav Button*/
+
+
+/* Button*/
+
+.btn{
+    padding: 14px 30px;
+    border-radius: 25px;
+    color:white;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'inter', sans-serif;
+    text-decoration: none;
+}
+
+.btn.light{
+    background-color: rgba(0, 45, 27, 0.31);
+    color: #D6E062;
+    box-shadow: 4px 4px 37.1px rgba(0, 0, 0, 0.25) inset;
+
+}
+
+/* Button*/
+
+/* hero Section */
+
+.hero-section{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+}
+
+.hero-section .right{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.hero-section .right .hero-text-atas{
+    margin-bottom: 0px;
+}
+
+.hero-section .right .hero-text-atas h1{
+    font-family: "inter", sans-serif;
+    font-size: 125px;
+    font-weight:800;
+    line-height: 107%;
+    color: #E6E6E6;
+    margin-bottom: 0;
+    margin-top: -37px;
+    margin-left: -5.5px;
+}
+
+.hero-section .right .hero-text-atas h3{
+    font-family: "inter", sans-serif;
+    font-size: 64px;
+    font-weight:500;
+    line-height: 107%;
+    color: #E6E6E6;
+    margin-top: 0;
+}
+
+.hero-section .right .hero-text-atas h3 span{
+    font-family: "inter", sans-serif;
+    font-size: 64px;
+    font-weight:500;
+    line-height: 107%;
+    color: #D6E062;
+}
+
+.hero-section .right .hero-text-bawah{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    margin-top: -70px;
+    float: right;
+}
+
+.hero-section .right .hero-text-bawah p{
+    text-align: right;
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+}
+
+.hero-section .right .hero-text-bawah .btn.light{
+    margin-left: 50px;
+}
+
+.hero-section .left{
+    margin-top: 250px;
+}
+
+.hero-section .left img{
+    width: 597px;
+    height: 794px;
+}
+
+/* end of hero section */
+
+
+.wrapper .how-it-works{
+    width: 100%;
+    height: 1332px;
+    background: linear-gradient(#002D1B, #0C562A);
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    position: relative; /* Penting! */
+    z-index: 101; 
+    margin-top: -90px;
+}
+
+.cacing{
+    position: relative;
+    margin-top: 30px;
+}
+
+.cacing img{
+    position: absolute;
+    top: 50px;
+    width:100%;
+}
+
+.how-it-works-text{
+    position: absolute;
+    top: 100px;
+    left: 223px;
+    width: 369px;
+    height: 368px;
+    align-items: center;
+    text-align: left;
+}
+
+.how-it-works-text h4{
+    font-family: "Roboto", sans-serif;
+    font-size: 70px;
+    color: #D8D8D8;
+    font-style: normal;
+    margin-bottom: 0;
+}
+
+.how-it-works-text h4 span{
+    font-family: "Roboto", sans-serif;
+    font-size: 80px;
+    color: #D6E062;
+    font-style: normal;
+}
+
+.how-it-works-text p{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: #D8D8D8;
+    font-style: normal;
+    margin-top: 5px;
+}
+
+.how-it-works .left{
+    position: absolute;
+    width: 468px;
+    height: 343px;
+    top: 726px;
+    left: 269px;
+}
+
+.how-it-works .left .bullet{
+    width: 70px;
+    height: 70px;
+    background: #D6E062;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: -70px;
+}
+
+.how-it-works .left h4{
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: #D6E062;
+    font-style: normal;
+    font-weight: bold;
+    
+}
+
+.how-it-works .left p{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #D8D8D8;
+    font-style: normal;
+}
+
+.how-it-works .right{
+    position: absolute;
+    width: 414px;
+    height: 559px;
+    top: 207px;
+    left: 1276px;
+}
+
+.how-it-works .right .bullet{
+    width: 70px;
+    height: 70px;
+    background: #D6E062;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: -63px;
+}
+
+.how-it-works .right h4{
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: #D6E062;
+    font-style: normal;
+    font-weight: bold;
+    
+}
+
+.how-it-works .right p{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #D8D8D8;
+    font-style: normal;
+}
+
+.how-it-works .center{
+    position: absolute;
+    width: 446px;
+    height: 532px;
+    top: 443px;
+    left: 779px;
+}
+
+.how-it-works .center .bullet{
+    width: 70px;
+    height: 70px;
+    background: #D6E062;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: -53px;
+}
+
+.how-it-works .center h4{
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: #D6E062;
+    font-style: normal;
+    font-weight: bold;
+    
+}
+
+.how-it-works .center p{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #D8D8D8;
+    font-style: normal;
+}
+

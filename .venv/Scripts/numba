@@ -1,0 +1,8 @@
+#!D:\Project\Thesis\02-Deployment\website_debtcol_v6\.venv\Scripts\python.exe
+# -*- coding: UTF-8 -*-
+from __future__ import print_function, division, absolute_import
+
+from numba.misc.numba_entry import main
+
+if __name__ == "__main__":
+    main()

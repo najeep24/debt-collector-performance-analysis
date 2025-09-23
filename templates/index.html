@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="stylesheet" type="text/css" href="static/css/index.css">
+
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="home-bg">
+                <nav>
+                    <div class="logo">Site Name</div>
+                    <ul>
+                        <li>
+                            <a href="#">Prediction</a>
+                        </li>
+                        <li>
+                            <a href="#">Analytics</a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn signup">Sign In</a>
+                        </li>
+                    </ul>
+                </nav>
+    
+                <!--end of navigation-->
+    
+                <div class="hero-section">
+                    <div class="left">
+                        <img src="static/img/money-hero-img.png">
+                    </div>
+    
+                    <div class="right">
+                        <div class="hero-text-atas">
+                            <img src="static/img/hero_dec.svg">
+                            <h1>Debt Collection</h1>
+                            <h3>Performance <span>Analysis</span></h3>
+                        </div>
+                        <div class="hero-text-bawah">
+                            <p>the premier platform designed to <br>
+                                revolutionize the way you approach debt collection.</p>
+                            <a href="./predict" class="btn light" id ="button">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <section class="how-it-works">
+            <div class="how-it-works-text">
+                <h4>How it <span><br>Works?</span></h4>
+                
+                <p>the premier platform
+                    <br>designed to revolutionize
+                    <br>the way you approach
+                    <br>debt collection.</p>
+            </div>
+
+            <div class="cacing">
+                <img src="static/img/cacing.svg">
+            </div>
+
+            <div class="alur">
+                <div class="garis-belakang"></div>
+                <div class="garis-depan"></div>
+            </div>
+
+            <div class="left">
+                <div class="bullet"></div>
+                <h4>Data Collection</h4>
+                <p>Kami mencari variable yang relevan untuk
+                    <br>memahami performa Debt Collection.
+                    <br>Pengguna dapat mengunggah data mereka sendiri dalam format CSV 
+                    <br>untuk melakukan analisa.</p>
+            </div>
+            <div class="right">
+                <div class="bullet"></div>
+                <h4>Machine Learning
+                    <br>Prediction</h4>
+                <p>Menggunakan model machine learning
+                    <br>yang telah dilatih dengan berbagai 
+                    <br>fitur yang relevan. Dengan memasukkan <br>data ke dalam model, kami dapat memprediksi hasil dari upaya pengumpulan utang dan <br> memberikan wawasan berharga mengenai potensi kesuksesan strategi
+                    <br>yang digunakan.</p>
+            </div>
+            <div class="center">
+                <div class="bullet"></div>
+                <h4>Visualization
+                    <br>and Insights</h4>
+                <p>Setelah data diunggah, kami <br>melakukan visualisasi berupa <br>dashboard yang menampilkan <br> berbagai metriks performa
+                    <br>debt collector. Informasi ini <br> membantu pengguna memahami <br>kekuatan dan kelemahan strategi <br>mereka, serta area yang perlu <br>diperbaiki untuk meningkatkan <br>performa pengumpulan utang.</p>
+            </div>
+            
+        </section>
+    </div>
+
+    <footer>
+        <div class="wrapper">
+            <div class="link-containers">
+                <h3>Site Name</h3>
+                <ul>
+                    <li>
+                        <a href="#">facebook</a>
+                    </li>
+                    <li>
+                        <a href="#">Instagram</a>
+                    </li>
+                    <li>
+                        <a href="#">Youtube</a>
+                    </li>
+                    <li>
+                        <a href="#">Linkedin</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        var button = document.getElementById("button");
+      if (button) {
+        button.addEventListener("click", function (e) {
+          window.location.href = "./predict";
+        });
+      }
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classification Result</title>
+
+    <link rel="stylesheet" type="text/css" href="./static/css/result.css">
+
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"   
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="result-bg">
+                <nav>
+                    <div class="logo">Site Name</div>
+                    <ul>
+                        <li>
+                            <a href="#">Prediction</a>
+                        </li>
+                        <li>
+                            <a href="#">Analytics</a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn signup">Sign In</a>
+                        </li>
+                    </ul>
+                </nav>
+    
+                <!--end of navigation-->
+
+                <div class="predict-page-title">
+                    <div class="predict-text-atas">
+                        <img src="static/img/predict_dec.svg">
+                        <h1>Debt Collection</h1>
+                        <h3>Classification <span>Result</span></h3>
+                    </div>
+                    <div class="predict-text-bawah">
+                        <p>the premier platform designed to <br>
+                            revolutionize the way you approach debt collection.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper">
+        <div class="all-result">
+            <div class="all-classification-box">
+                <div class="left">
+                    <h3>Radar Chart</h3>
+                    <div class="box-chart-clf">
+                        <img src="data:image/png;base64,{{ radar_data }}" alt="Radar Chart">
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="result-clf">
+                        <h5>Debt Collector Classification</h5>
+                        <h3>{{ prediction }} <br>Performance</h3>
+                    </div>
+                    <div class="desc-result-clf">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt eius nihil esse, recusandae atque velit eos quas cupiditate. Doloribus tenetur ad atque labore nostrum, iure omnis quam minima praesentium. Perspiciatis.</p>
+                        <div class="legend-result-clf">
+                            <div class="legend-col">
+                                <div class="line-vizz"></div>
+                                <h5>: Collector Score</h5>
+                            </div>
+                            <div class="legend-avg">
+                                <div class="average-vizz"></div>
+                                <h5>: Average Score</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="all-result-feature">
+                <div class="all-recovery-rate-box">
+                    <div class="box-score">
+                        <h4>Recovery Rate <br>Score</h4>
+                        <h5>|</h5>
+                        <h3>{{ recovery_ratio }}%</h3>
+                    </div>
+                    <div class="container-box">
+                        <div class="chart-box-feature">
+                            <img src="data:image/png;base64,{{ recovery_ratio_data }}" alt="Success Ratio Gauge">
+                        </div>
+                        <div class="legend-box-feature">
+                            <div class="batas-kuartil1">
+                                <div class="box-kuartil">
+                                    <div class="line-kuartil1"></div>
+                                    <div class="desc-line-kuartil1">
+                                    : Low
+                                    </div>
+                                </div>
+                                <div class="box-kuartil">
+                                    <div class="line-kuartil2"></div>
+                                    <div class="desc-line-kuartil2">
+                                    : Medium
+                                    </div>
+                                </div>
+                                <div class="box-kuartil">
+                                    <div class="line-kuartil3"></div>
+                                    <div class="desc-line-kuartil3">
+                                    : High
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Recovery Rate</h4>
+                        <p>{{recovery_ratio_description}}</p>
+                    </div>
+                </div>
+                <div class="all-RPC-box">
+                    <div class="all-rpc-rate-box">
+                        <div class="box-score">
+                            <h4>RPC <br>Score</h4>
+                            <h5>|</h5>
+                            <h3>{{ rpc }}%</h3>
+                        </div>
+                        <div class="container-box">
+                            <div class="chart-box-feature">
+                                <img src="data:image/png;base64,{{ rpc_data }}" alt="CEI Gauge">
+                            </div>
+                            <div class="legend-box-feature">
+                                <div class="batas-kuartil1">
+                                    <div class="box-kuartil">
+                                        <div class="line-kuartil1"></div>
+                                        <div class="desc-line-kuartil1">
+                                        : Low
+                                        </div>
+                                    </div>
+                                    <div class="box-kuartil">
+                                        <div class="line-kuartil2"></div>
+                                        <div class="desc-line-kuartil2">
+                                        : Medium
+                                        </div>
+                                    </div>
+                                    <div class="box-kuartil">
+                                        <div class="line-kuartil3"></div>
+                                        <div class="desc-line-kuartil3">
+                                        : High
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>Recovery Rate</h4>
+                            <p>{{ rpc_description }}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="all-ptp-box">
+                    <div class="all-ptp-rate-box">
+                        <div class="box-score">
+                            <h4>PTP <br>Score</h4>
+                            <h5>|</h5>
+                            <h3>{{ ptp }}%</h3>
+                        </div>
+                        <div class="container-box">
+                            <div class="chart-box-feature">
+                                <img src="data:image/png;base64,{{ ptp_data }}" alt="%PTP Gauge">
+                            </div>
+                            <div class="legend-box-feature">
+                                <div class="batas-kuartil1">
+                                    <div class="box-kuartil">
+                                        <div class="line-kuartil1"></div>
+                                        <div class="desc-line-kuartil1">
+                                        : Low
+                                        </div>
+                                    </div>
+                                    <div class="box-kuartil">
+                                        <div class="line-kuartil2"></div>
+                                        <div class="desc-line-kuartil2">
+                                        : Medium
+                                        </div>
+                                    </div>
+                                    <div class="box-kuartil">
+                                        <div class="line-kuartil3"></div>
+                                        <div class="desc-line-kuartil3">
+                                        : High
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>Recovery Rate</h4>
+                            <p>{{ ptp_description }}</p>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
