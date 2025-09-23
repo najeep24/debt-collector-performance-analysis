@@ -1,5 +1,7 @@
 In this section, we detail the steps taken to explore the dataset with the aim of identifying distinct behavioral and performance patterns among debt collectors. To ensure the analysis was both accurate and meaningful, necessary preprocessing was applied to selected variables to align them with the analytical objectives. 
 
+See detailed code in my [google colab project](https://colab.research.google.com/drive/1_flqHYiEWnCanOyWrpKaKtIsaLFpELhW?usp=sharing)
+
 
 ## Data Preprocessing
 
