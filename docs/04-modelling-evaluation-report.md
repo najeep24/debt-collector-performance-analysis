@@ -94,7 +94,7 @@ High       0    69   1361
 
 The ROC (Receiver Operating Characteristic) curves provide a graphical comparison of the classification capabilities of the three models (LightGBM, Random Forest, and Decision Tree) across all possible classification thresholds. The x-axis represents the **False Positive Rate (FPR)**, while the y-axis represents the **True Positive Rate (TPR)**. An ideal model will achieve a curve that quickly rises towards the top-left corner, indicating high sensitivity with minimal false alarms.
 
-![roc-curve](https://github.com/najeep24/debt-collector-performance-analysis/blob/c914e92aa5549d5b378f6afcadcceaba7749aaf4/data/ROC-curve-comparison.png)
+![roc-curve](https://github.com/najeep24/debt-collector-performance-analysis/blob/e2307efe5e5e18d27a9352d9aa00a3dd0a18dff5/data/ROC-curve-comparison.png)
 ### Observations:
 
 1. **LightGBM (AUC = 0.99)**
