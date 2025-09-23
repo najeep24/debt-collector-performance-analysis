@@ -101,7 +101,7 @@
 
 **Rationale**: Since the project aims to identify performance differences, outliers were evaluated within their categorical context to preserve meaningful patterns while removing genuine anomalies.
 
-![image alt](https://github.com/najeep24/debt-collector-performance-analysis/blob/7e2394fca9f54d3ee7f5a74d554476b1579be82f/data/before-contextual-outlier.png)
+![image alt](https://github.com/najeep24/debt-collector-performance-analysis/blob/e2307efe5e5e18d27a9352d9aa00a3dd0a18dff5/data/before-contextual-outlier.png)
 
 In the boxplot visualisation above, it can be seen that the outliers are call_to_ptp, contact connected and the most is in the total contact variable. 
 
@@ -126,7 +126,7 @@ In the boxplot visualisation above, it can be seen that the outliers are call_to
 
 **Results**:
 
-![image alt](https://github.com/najeep24/debt-collector-performance-analysis/blob/7e2394fca9f54d3ee7f5a74d554476b1579be82f/data/after-contextual-outlier.png
+![image alt](https://github.com/najeep24/debt-collector-performance-analysis/blob/e2307efe5e5e18d27a9352d9aa00a3dd0a18dff5/data/after-contextual-outlier.png
 )
 
 - **Records Removed**: 336 records (2.9% of filtered dataset)
