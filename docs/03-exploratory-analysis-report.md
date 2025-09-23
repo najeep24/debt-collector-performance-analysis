@@ -50,14 +50,14 @@ This approach preserved the ordinal relationships while maintaining correlation 
 
 #### 1. Debt Recovery Analysis
 
-![total debt vs recieved](https://github.com/najeep24/debt-collector-performance-analysis/blob/858b0f799c8c9c73db6216f4e53b896ecde0188f/data/total-debt.png)
+![total debt vs recieved](https://github.com/najeep24/debt-collector-performance-analysis/blob/e2307efe5e5e18d27a9352d9aa00a3dd0a18dff5/data/total-debt.png)
 
 - **High performers** demonstrate superior debt collection capabilities despite similar debt assignment levels
 - All categories receive comparable total debt amounts, suggesting unbiased task distribution
 - Recovery effectiveness clearly differentiates performance tiers
 
 #### 2. Skill Assessment Patterns
-![categorical pattern variabel](https://github.com/najeep24/debt-collector-performance-analysis/blob/47a81fd00d46eb140f56d28da71e338c6c46513b/data/problem-solve.png)
+![categorical pattern variabel](https://github.com/najeep24/debt-collector-performance-analysis/blob/e2307efe5e5e18d27a9352d9aa00a3dd0a18dff5/data/problem-solve.png)
 
 - **Low performers**: Consistently score at minimum levels across all evaluated dimensions
 - **Medium vs High performers**: Similar overall patterns but high performers show:
@@ -66,7 +66,7 @@ This approach preserved the ordinal relationships while maintaining correlation 
     - More stable success ratios
 
 #### 3. Operational Efficiency Metrics
-![violin plot](https://github.com/najeep24/debt-collector-performance-analysis/blob/47a81fd00d46eb140f56d28da71e338c6c46513b/data/violin.png)
+![violin plot](https://github.com/najeep24/debt-collector-performance-analysis/blob/e2307efe5e5e18d27a9352d9aa00a3dd0a18dff5/data/violin.png)
 - **Transfer processing times**: Low performers average >25 days vs. <16 days for others
 - **Contact conversion**: High performers achieve better contact-to-promise ratios
 - **Case closure**: Strong correlation between promise conversion and final resolution success
@@ -74,7 +74,7 @@ This approach preserved the ordinal relationships while maintaining correlation 
 ### Correlation Analysis
 
 **Strongest Performance Predictors:**
-![heatmap](https://github.com/najeep24/debt-collector-performance-analysis/blob/47a81fd00d46eb140f56d28da71e338c6c46513b/data/corr.png)
+![heatmap](https://github.com/najeep24/debt-collector-performance-analysis/blob/e2307efe5e5e18d27a9352d9aa00a3dd0a18dff5/data/corr.png)
 - Success Ratio: 0.65 correlation with performance category
 - Call-to-Payment Promise Rate: 0.65 correlation
 - Contact Connection Rate: 0.56 correlation
