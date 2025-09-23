@@ -6,6 +6,8 @@ This report presents the modeling phase of a collector performance classificatio
 
 The dataset used contains 11,649 records with a 70/30 train-test split, featuring both original operational metrics and engineered performance indicators derived from XGBoost feature importance analysis.
 
+See detailed code in my [google colab project](https://colab.research.google.com/drive/1_flqHYiEWnCanOyWrpKaKtIsaLFpELhW?usp=sharing)
+
 ## 1. Data Balancing
 
 Applied SMOTENC (Synthetic Minority Oversampling Technique for Nominal and Continuous features) to address class imbalance:
