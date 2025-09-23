@@ -1,5 +1,8 @@
 # Tableau Dashboard Report - Debt Collector Performance Analytics
 
+![Dashboard Analytics](https://github.com/najeep24/debt-collector-performance-analysis/blob/65576856513b20a11fc8f93d38c7429585456d48/data/Screenshot%202025-09-23%20082446.png)
+Or you can access it on my tableau public [here](https://public.tableau.com/views/DashboardCollectorPerformance/Eksperimen?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 ## Executive Summary
 
 This report documents the comprehensive Tableau dashboard created for debt collector performance analysis, providing executive-level insights and operational analytics. The dashboard transforms raw performance data into actionable business intelligence, enabling data-driven decision-making for collector management, performance optimization, and strategic planning.
