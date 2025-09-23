@@ -157,3 +157,5 @@ In the boxplot visualisation above, it can be seen that the outliers are call_to
 - **Consistency**: 100% (no categorical inconsistencies)
 - **Validity**: 100% (no invalid business rule violations)
 - **Accuracy**: 92.7% (after outlier removal)
+
+See detailed code in my [google colab project](https://colab.research.google.com/drive/1_flqHYiEWnCanOyWrpKaKtIsaLFpELhW?usp=sharing)
